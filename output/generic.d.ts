@@ -1,0 +1,10 @@
+declare function getData<T>(value: T): T;
+declare const onlyString = "Hemant";
+declare const onlyNumber = 123;
+declare const onlyBoolean = true;
+declare function getDataAny(value: any): any;
+declare const onlyStringAny: any;
+declare const onlyNumberAny: any;
+declare const onlyBooleanAny: any;
+declare function getArray<T>(data: T[]): T[];
+declare const stringArry: string[];
